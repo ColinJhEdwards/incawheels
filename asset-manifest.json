@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/incawheels/static/css/main.a617e044.chunk.css",
+    "main.js": "/incawheels/static/js/main.67bec04e.chunk.js",
+    "main.js.map": "/incawheels/static/js/main.67bec04e.chunk.js.map",
+    "runtime-main.js": "/incawheels/static/js/runtime-main.92112426.js",
+    "runtime-main.js.map": "/incawheels/static/js/runtime-main.92112426.js.map",
+    "static/js/2.d866c6e5.chunk.js": "/incawheels/static/js/2.d866c6e5.chunk.js",
+    "static/js/2.d866c6e5.chunk.js.map": "/incawheels/static/js/2.d866c6e5.chunk.js.map",
+    "static/js/3.3707c106.chunk.js": "/incawheels/static/js/3.3707c106.chunk.js",
+    "static/js/3.3707c106.chunk.js.map": "/incawheels/static/js/3.3707c106.chunk.js.map",
+    "index.html": "/incawheels/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/incawheels/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.d866c6e5.chunk.js.LICENSE.txt": "/incawheels/static/js/2.d866c6e5.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/incawheels/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.92112426.js",
+    "static/js/2.d866c6e5.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.67bec04e.chunk.js"
+  ]
+}
