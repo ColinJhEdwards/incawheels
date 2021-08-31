@@ -7,7 +7,7 @@ const NavB = () => {
     <StyledNav>
       <Navbar bg="none" expand="lg" className="noov navbar-dark">
         <Navbar.Brand className="text logo">
-          <span>Murphy's Music School</span>
+          <span>Inca Wheels</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -27,6 +27,10 @@ const StyledNav = styled.div`
   position: absolute;
   width: 100%;
   z-index: 99;
+  .noov {
+    width: 95%;
+    margin: auto;
+  }
 `;
 
 export default NavB;
