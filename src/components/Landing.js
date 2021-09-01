@@ -18,11 +18,6 @@ const Landing = () => {
             <button>Reserve Now</button>
           </div>
         </div>
-        <div className="two">
-          <img src={van} alt="the-van" />
-          <img src={van} alt="the-van" />
-          <img src={van} alt="the-van" />
-        </div>
       </div>
     </StyledLang>
   );
@@ -30,23 +25,20 @@ const Landing = () => {
 
 const StyledLang = styled(motion.div)`
   min-height: 100vh;
-  padding-top: 6rem;
+  position: relative;
   .content {
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     .one {
-      text-align: center;
-      position: relative;
       img {
-        width: 70%;
+        position: absolute;
+        top: 0;
+        left: 0;
       }
       .text {
         position: absolute;
-        top: 30%;
-        right: 28%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         h2 {
           color: black;
           text-shadow: 1px 1px 3px gray;
@@ -72,15 +64,6 @@ const StyledLang = styled(motion.div)`
             text-shadow: none;
           }
         }
-      }
-    }
-    .two {
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      img {
-        width: 20%;
-        margin: 2rem 3rem;
       }
     }
   }

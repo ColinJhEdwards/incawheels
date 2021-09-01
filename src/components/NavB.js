@@ -32,18 +32,18 @@ const NavB = () => {
 };
 
 const StyledNav = styled.div`
-  position: fixed;
+  position: absolute;
   width: 100%;
   z-index: 99;
-  background: white;
+
   span {
-    color: black;
+    color: white;
     font-weight: bold;
   }
   .noov {
     width: 95%;
     margin: auto;
-    background: white;
+
     .logo {
       font-size: 2rem;
     }
