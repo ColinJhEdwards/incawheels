@@ -33,12 +33,12 @@ export const width = {
 };
 
 export const ySlide = {
-  hidden: { y: "150%", opacity: 0 },
+  hidden: { y: "50%", opacity: 0 },
   show: {
     y: "0%",
     opacity: 1,
 
-    transition: { duration: 1, delay: 0.5 },
+    transition: { duration: 1 },
   },
 };
 
