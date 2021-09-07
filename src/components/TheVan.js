@@ -19,11 +19,24 @@ const TheVan = () => {
         <Caro />
       </div>
       <div className="icons">
-        <FontAwesomeIcon icon={faBed} />
-        <FontAwesomeIcon icon={faUserFriends} />
-        <FontAwesomeIcon icon={faGasPump} />
-        <FontAwesomeIcon icon={faTachometerAlt} />
+        <div>
+          <FontAwesomeIcon className="icon" icon={faBed} />
+          Sleeps Two
+        </div>
+        <div>
+          <FontAwesomeIcon className="icon" icon={faUserFriends} />
+          Two Seatbelts
+        </div>
+        <div>
+          <FontAwesomeIcon className="icon" icon={faGasPump} />
+          Fuel: Gas
+        </div>
+        <div>
+          <FontAwesomeIcon className="icon" icon={faTachometerAlt} />
+          Transmission: Automatic
+        </div>
       </div>
+      <hr />
       <p>
         A 2007 Ford Econoline 150 equipped with solar panels, remodeled with
         sustainable material, and added storage made from cedar wood which
@@ -47,14 +60,34 @@ const StyledVan = styled(motion.div)`
   hr {
     width: 10%;
     height: 4px;
-    background: #630a10;
+    background: #911f27;
     opacity: 1;
   }
   .carousel {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 60%;
+  }
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    div {
+      border: 1px solid rgba(151, 151, 151, 0.5);
+      border-radius: 5px;
+      width: 400px;
+      padding: 1rem 0rem;
+      margin: 0rem 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      .icon {
+        font-size: 2rem;
+      }
+    }
   }
   p {
     text-align: center;
