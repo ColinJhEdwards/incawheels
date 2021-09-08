@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const AboutUs = () => {
   return (
-    <StyledUs>
+    <StyledUs id="aboutus">
       <h2>About Inca Wheels</h2>
     </StyledUs>
   );

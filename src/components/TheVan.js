@@ -12,7 +12,7 @@ import {
 
 const TheVan = () => {
   return (
-    <StyledVan>
+    <StyledVan id="thevan">
       <h1>Designed with sustainabilty in mind.</h1>
       <hr />
       <div className="carousel">
@@ -68,7 +68,6 @@ const StyledVan = styled(motion.div)`
     justify-content: center;
     align-items: center;
     width: 70%;
-    
   }
   .icons {
     display: flex;

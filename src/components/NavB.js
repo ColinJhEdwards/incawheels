@@ -15,13 +15,13 @@ const NavB = () => {
             <Nav.Link className="relative">
               <span>Home</span>
             </Nav.Link>
-            <Nav.Link className="relative">
+            <Nav.Link href="#thevan" className="relative">
               <span>The Van</span>
             </Nav.Link>
-            <Nav.Link className="relative">
+            <Nav.Link href="#aboutus" className="relative">
               <span>About Us</span>
             </Nav.Link>
-            <Nav.Link className="relative">
+            <Nav.Link href="#destinatons" className="relative">
               <span>Destinations</span>
             </Nav.Link>
           </Nav>
