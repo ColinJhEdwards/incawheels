@@ -48,6 +48,15 @@ const StyledNav = styled.div`
       font-size: 2rem;
     }
   }
+  .relative {
+    span {
+      color: white;
+      transition: all ease 0.5s;
+      &:hover {
+        color: #911f27;
+      }
+    }
+  }
 `;
 
 export default NavB;

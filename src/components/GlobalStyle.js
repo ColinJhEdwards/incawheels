@@ -9,16 +9,10 @@ const GlobalStyle = createGlobalStyle`
 }
 
 body{
-    font-family: 'Noto Serif', serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 
-a{
-   color: black;
-   &:hover{
-       color: #911F27;
-   }
-}
 
 .colors{
     color: #911F27;
