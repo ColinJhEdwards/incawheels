@@ -52,7 +52,7 @@ const TheVan = () => {
 };
 
 const StyledVan = styled(motion.div)`
-  min-height: 100vh;
+  min-height: 150vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,7 +67,8 @@ const StyledVan = styled(motion.div)`
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 70%;
+    
   }
   .icons {
     display: flex;
