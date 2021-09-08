@@ -3,6 +3,7 @@ import Landing from "./components/Landing";
 import GlobalStyle from "./components/GlobalStyle";
 import NavB from "./components/NavB";
 import TheVan from "./components/TheVan";
+import AboutUs from "./components/AboutUs";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <NavB />
       <Landing />
       <TheVan />
+      <AboutUs />
     </div>
   );
 }
