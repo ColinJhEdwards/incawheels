@@ -4,6 +4,7 @@ import GlobalStyle from "./components/GlobalStyle";
 import NavB from "./components/NavB";
 import TheVan from "./components/TheVan";
 import AboutUs from "./components/AboutUs";
+import Destinations from "./components/Desinations";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <NavB />
       <Landing />
       <TheVan />
+      <Destinations />
       <AboutUs />
     </div>
   );

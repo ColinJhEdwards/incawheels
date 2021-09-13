@@ -21,7 +21,7 @@ const NavB = () => {
             <Nav.Link href="#aboutus" className="relative">
               <span>About Us</span>
             </Nav.Link>
-            <Nav.Link href="#destinatons" className="relative">
+            <Nav.Link href="#destinations" className="relative">
               <span>Destinations</span>
             </Nav.Link>
           </Nav>
