@@ -16,10 +16,12 @@ const TheVan = () => {
     <StyledVan id="thevan">
       <h1>Designed with sustainabilty in mind.</h1>
       <hr />
-      <div className="logo">
-        <img src={van} alt="van-with-no-background" />
+      <div>
+        <figure>
+          <img src={van} alt="van-with-no-background" />
+          <figcaption>2007 Ford Econoline 150 Camper Van</figcaption>
+        </figure>
       </div>
-
       <div className="icons">
         <div>
           <FontAwesomeIcon className="icon" icon={faBed} />
