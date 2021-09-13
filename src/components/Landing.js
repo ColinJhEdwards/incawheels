@@ -53,6 +53,7 @@ const StyledLang = styled(motion.div)`
           color: black;
           text-shadow: 1px 1px 3px gray;
           font-size: 3rem;
+          font-family: "Anton", sans-serif;
           span {
             color: #911f27;
           }
