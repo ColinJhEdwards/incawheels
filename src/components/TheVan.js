@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 import Caro from "./Caro";
+import van from "../images/nobg.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBed,
@@ -15,9 +16,10 @@ const TheVan = () => {
     <StyledVan id="thevan">
       <h1>Designed with sustainabilty in mind.</h1>
       <hr />
-      <div className="carousel">
-        <Caro />
+      <div className="logo">
+        <img src={van} alt="van-with-no-background" />
       </div>
+
       <div className="icons">
         <div>
           <FontAwesomeIcon className="icon" icon={faBed} />
@@ -37,6 +39,9 @@ const TheVan = () => {
         </div>
       </div>
       <hr />
+      <div className="carousel">
+        <Caro />
+      </div>
       <p>
         A 2007 Ford Econoline 150 equipped with solar panels, remodeled with
         sustainable material, and added storage made from cedar wood which
@@ -52,7 +57,7 @@ const TheVan = () => {
 };
 
 const StyledVan = styled(motion.div)`
-  min-height: 150vh;
+  min-height: 200vh;
   display: flex;
   flex-direction: column;
   align-items: center;
