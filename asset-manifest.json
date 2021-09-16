@@ -1,23 +1,31 @@
 {
   "files": {
-    "main.css": "/incawheels/static/css/main.a617e044.chunk.css",
-    "main.js": "/incawheels/static/js/main.67bec04e.chunk.js",
-    "main.js.map": "/incawheels/static/js/main.67bec04e.chunk.js.map",
-    "runtime-main.js": "/incawheels/static/js/runtime-main.92112426.js",
-    "runtime-main.js.map": "/incawheels/static/js/runtime-main.92112426.js.map",
-    "static/js/2.d866c6e5.chunk.js": "/incawheels/static/js/2.d866c6e5.chunk.js",
-    "static/js/2.d866c6e5.chunk.js.map": "/incawheels/static/js/2.d866c6e5.chunk.js.map",
-    "static/js/3.3707c106.chunk.js": "/incawheels/static/js/3.3707c106.chunk.js",
-    "static/js/3.3707c106.chunk.js.map": "/incawheels/static/js/3.3707c106.chunk.js.map",
+    "main.js": "/incawheels/static/js/main.5974da17.chunk.js",
+    "main.js.map": "/incawheels/static/js/main.5974da17.chunk.js.map",
+    "runtime-main.js": "/incawheels/static/js/runtime-main.15457ee1.js",
+    "runtime-main.js.map": "/incawheels/static/js/runtime-main.15457ee1.js.map",
+    "static/css/2.818011ed.chunk.css": "/incawheels/static/css/2.818011ed.chunk.css",
+    "static/js/2.1f288f7e.chunk.js": "/incawheels/static/js/2.1f288f7e.chunk.js",
+    "static/js/2.1f288f7e.chunk.js.map": "/incawheels/static/js/2.1f288f7e.chunk.js.map",
+    "static/js/3.001c5481.chunk.js": "/incawheels/static/js/3.001c5481.chunk.js",
+    "static/js/3.001c5481.chunk.js.map": "/incawheels/static/js/3.001c5481.chunk.js.map",
     "index.html": "/incawheels/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/incawheels/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.d866c6e5.chunk.js.LICENSE.txt": "/incawheels/static/js/2.d866c6e5.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/incawheels/static/media/logo.6ce24c58.svg"
+    "static/css/2.818011ed.chunk.css.map": "/incawheels/static/css/2.818011ed.chunk.css.map",
+    "static/js/2.1f288f7e.chunk.js.LICENSE.txt": "/incawheels/static/js/2.1f288f7e.chunk.js.LICENSE.txt",
+    "static/media/1.4e9dc528.jpg": "/incawheels/static/media/1.4e9dc528.jpg",
+    "static/media/5.b1716f16.jpg": "/incawheels/static/media/5.b1716f16.jpg",
+    "static/media/6.60ba85b9.jpg": "/incawheels/static/media/6.60ba85b9.jpg",
+    "static/media/about.50dc9886.jpg": "/incawheels/static/media/about.50dc9886.jpg",
+    "static/media/coin.f3012cc9.JPG": "/incawheels/static/media/coin.f3012cc9.JPG",
+    "static/media/joao.98abc750.jpg": "/incawheels/static/media/joao.98abc750.jpg",
+    "static/media/khocco.cf5352d5.jpg": "/incawheels/static/media/khocco.cf5352d5.jpg",
+    "static/media/nobg.2f83c4e4.png": "/incawheels/static/media/nobg.2f83c4e4.png",
+    "static/media/washington.e6cce76a.jpg": "/incawheels/static/media/washington.e6cce76a.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.92112426.js",
-    "static/js/2.d866c6e5.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.67bec04e.chunk.js"
+    "static/js/runtime-main.15457ee1.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.1f288f7e.chunk.js",
+    "static/js/main.5974da17.chunk.js"
   ]
 }
