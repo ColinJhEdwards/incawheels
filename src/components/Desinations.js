@@ -1,8 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
+import DestinationCard from "./DestinationCard";
+import { destinations } from "../data";
 
 const Destinations = () => {
+  const data = destinations;
+  console.log(data);
   return (
     <StyledUs id="destinations">
       <h2>Destinations</h2>
