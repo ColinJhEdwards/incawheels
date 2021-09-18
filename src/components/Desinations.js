@@ -1,15 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 import DestinationCard from "./DestinationCard";
 import { destinations } from "../data";
 
 const Destinations = () => {
-  const data = destinations;
+  const [data, setData] = useState(destinations);
   console.log(data);
+
   return (
     <StyledUs id="destinations">
       <h2>Destinations</h2>
+      {data.map((d) => (
+        <DestinationCard
+          key={d.id}
+          name={d.name}
+          url={d.url}
+          desc={d.desc}
+          img={d.img}
+        />
+      ))}
     </StyledUs>
   );
 };
