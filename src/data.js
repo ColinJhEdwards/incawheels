@@ -1,6 +1,8 @@
 import shishi from "./images/destinations/shishi.jpeg";
 import blanca from "./images/destinations/blanca.jpg";
 import angel from "./images/destinations/angel.jpg";
+import rainer from "./images/destinations/rainer.jpg";
+import cush from "./images/destinations/cush.jpg";
 
 export const destinations = () => {
   const APIKEY = process.env.REACT_APP_APIKEY;
@@ -25,6 +27,20 @@ export const destinations = () => {
       img: shishi,
       url: `https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ27FMnyGWjlQRW1xqlADIw68&key=${APIKEY}`,
       desc: `"When it comes to picturesque views of the wild and rugged Olympic Coast, Shi Shi tops the list. Photographers might want to spend a night or two attempting to capture a prize-winning sunset over the sea stack-strewn Pacific." - Washington Trail Association`,
+    },
+    {
+      id: 4,
+      name: "Mount Rainer Hikes",
+      img: rainer,
+      url: `https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ-2AI95PRkFQRB7fWeuFPXls&key=${APIKEY}`,
+      desc: `"In most years, the snow on Mount Rainier never seems to melt fast enough for hikers wanting to explore the many treasures of Mount Rainier National Park. There is a wide variety of hikes for vistors to enjoy for all skill levels." - Washington Trail Assocation`,
+    },
+    {
+      id: 4,
+      name: "Lake Cushman",
+      img: cush,
+      url: `https://www.google.com/maps/embed/v1/place?q=place_id:ChIJb7BnL2_DkVQR0ofpawB_xSY&key=${APIKEY}`,
+      desc: `"This area gets its namesake from the stunning Lake Cushman Reservoir, a popular destination for its clear waters and lush forested shoreline. Extremely popular for swimming, fishing, boating and picnicking during sunny weekends." USDA Forest Service`,
     },
   ];
 };
