@@ -33,7 +33,7 @@ const AboutUs = () => {
         </div>
         <div className="list">
           <div className="person">
-            <img src={joao} alt="image-of-joao" />
+            <img src={joao} alt="joao" />
             <h2>Joao Vilva Soto</h2>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint,
@@ -42,7 +42,7 @@ const AboutUs = () => {
             </p>
           </div>
           <div className="person">
-            <img src={khocco} alt="image-of-khocoo" />
+            <img src={khocco} alt="khocoo" />
             <h2>Khocco Exendine</h2>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint,
@@ -51,7 +51,7 @@ const AboutUs = () => {
             </p>
           </div>
           <div className="person">
-            <img src={coin} alt="image-of-colin" />
+            <img src={coin} alt="colin" />
             <h2>Colin Edwards</h2>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint,

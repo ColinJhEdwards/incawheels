@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
+import { Image } from "react-bootstrap";
 
 const DestinationCard = ({ img, name, url, desc }) => {
   return (
@@ -14,7 +15,7 @@ const DestinationCard = ({ img, name, url, desc }) => {
           allowfullscreen
           src={url}
         ></iframe>
-        <img src={img} alt={name} />
+        <Image src={img} alt={name} fluid />
       </div>
       <p>{desc}</p>
     </StyledCard>
@@ -27,19 +28,28 @@ const StyledCard = styled(motion.div)`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: #4d4d4d;
+  border-radius: 15px;
+  margin: 1rem 0rem;
+  h2 {
+    margin: 4rem 0rem;
+  }
   .image {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
     iframe {
-      margin-right: 2rem;
     }
     img {
       width: 600px;
-      margin-left: 2rem;
     }
   }
   p {
-    align-self: flex-start;
+    margin-top: 2rem;
     width: 50%;
+    text-align: center;
   }
 `;
 

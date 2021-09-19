@@ -10,7 +10,7 @@ const Destinations = () => {
 
   return (
     <StyledUs id="destinations">
-      <h2>Destinations</h2>
+      <h2>Destination Recommendations</h2>
       {data.map((d) => (
         <DestinationCard
           key={d.id}
@@ -26,12 +26,15 @@ const Destinations = () => {
 
 const StyledUs = styled(motion.div)`
   min-height: 100vh;
-  background: #4e4e4e;
+  background: #313131;
   color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  h2 {
+    margin: 2rem 0rem;
+  }
 `;
 
 export default Destinations;
