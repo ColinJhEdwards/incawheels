@@ -44,6 +44,7 @@ const StyledCard = styled(motion.div)`
     }
     img {
       width: 600px;
+      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
     }
   }
   p {

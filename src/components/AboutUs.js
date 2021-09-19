@@ -128,6 +128,13 @@ const StyledUs = styled(motion.div)`
       }
     }
   }
+  @media (max-width: 415px) {
+    .content {
+      img {
+        width: 300px;
+      }
+    }
+  }
 `;
 
 export default AboutUs;

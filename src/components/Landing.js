@@ -77,6 +77,17 @@ const StyledLang = styled(motion.div)`
       }
     }
   }
+  @media (max-width: 415px) {
+    .content {
+      .one {
+        .text {
+          h2 {
+            font-size: 3rem;
+          }
+        }
+      }
+    }
+  }
 `;
 
 export default Landing;

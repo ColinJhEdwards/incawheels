@@ -16,7 +16,7 @@ const TheVan = () => {
     <StyledVan id="thevan">
       <h1>Designed with sustainabilty in mind.</h1>
       <hr />
-      <div>
+      <div className="vanLogo">
         <figure>
           <img src={van} alt="van-with-no-background" />
           <figcaption>2007 Ford Econoline 150 Camper Van</figcaption>
@@ -64,6 +64,9 @@ const StyledVan = styled(motion.div)`
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  h1 {
+    text-align: center;
+  }
   hr {
     width: 10%;
     height: 4px;
@@ -80,17 +83,19 @@ const StyledVan = styled(motion.div)`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 50%;
+    flex-wrap: wrap;
+    width: 60%;
     div {
       border: 1px solid rgba(151, 151, 151, 0.5);
       border-radius: 5px;
-      width: 400px;
+      width: 200px;
       padding: 1rem 0rem;
-      margin: 0rem 1rem;
+      margin: 0.5rem 1rem;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
+      text-align: center;
       .icon {
         font-size: 2rem;
       }
@@ -99,6 +104,13 @@ const StyledVan = styled(motion.div)`
   p {
     text-align: center;
     width: 60%;
+  }
+  @media (max-width: 415px) {
+    .vanLogo {
+      img {
+        width: 300px;
+      }
+    }
   }
 `;
 
