@@ -5,6 +5,7 @@ import NavB from "./components/NavB";
 import TheVan from "./components/TheVan";
 import AboutUs from "./components/AboutUs";
 import Destinations from "./components/Desinations";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <TheVan />
       <Destinations />
       <AboutUs />
+      <Footer />
     </div>
   );
 }

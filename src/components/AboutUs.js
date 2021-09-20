@@ -25,7 +25,6 @@ const AboutUs = () => {
           dolore nihil et dolores sunt omnis accusantium aut! Itaque dignissimos
           voluptas aliquid iste.
         </h3>
-        <img src={aboutImg} alt="img-of-leaf" />
       </div>
       <div className="team">
         <div className="title">
@@ -87,10 +86,7 @@ const StyledUs = styled(motion.div)`
     flex-wrap: wrap;
     h3 {
       width: 50%;
-    }
-    img {
-      border-radius: 10px;
-      box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+      text-align: center;
     }
   }
   .team {
@@ -129,9 +125,16 @@ const StyledUs = styled(motion.div)`
     }
   }
   @media (max-width: 415px) {
+    .title {
+      p {
+        width: 90%;
+        margin: 2rem auto;
+        text-align: center;
+      }
+    }
     .content {
-      img {
-        width: 300px;
+      h3 {
+        width: 90%;
       }
     }
   }

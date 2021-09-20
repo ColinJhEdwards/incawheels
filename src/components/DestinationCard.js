@@ -47,6 +47,7 @@ const StyledCard = styled(motion.div)`
     align-self: center;
     text-shadow: 0px 1px 2px black;
     font-size: 3rem;
+    text-align: center;
   }
   iframe {
     position: absolute;

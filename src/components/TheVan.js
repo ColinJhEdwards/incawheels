@@ -111,6 +111,12 @@ const StyledVan = styled(motion.div)`
         width: 300px;
       }
     }
+    .carousel {
+      width: 90%;
+    }
+    p {
+      width: 90%;
+    }
   }
 `;
 

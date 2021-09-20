@@ -34,6 +34,7 @@ const StyledUs = styled(motion.div)`
   justify-content: space-around;
   #title {
     font-size: 3rem;
+    text-align: center;
   }
   h2 {
     margin: 2rem 0rem;
