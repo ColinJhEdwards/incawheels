@@ -24,7 +24,7 @@ const Landing = () => {
   );
 };
 
-const StyledLang = styled(motion.div)`
+const StyledLang = styled(motion.section)`
   min-height: 100vh;
   position: relative;
   .content {

@@ -58,7 +58,7 @@ const TheVan = () => {
   );
 };
 
-const StyledVan = styled(motion.div)`
+const StyledVan = styled(motion.section)`
   min-height: 200vh;
   display: flex;
   flex-direction: column;

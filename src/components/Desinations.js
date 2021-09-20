@@ -24,7 +24,7 @@ const Destinations = () => {
   );
 };
 
-const StyledUs = styled(motion.div)`
+const StyledUs = styled(motion.section)`
   min-height: 100vh;
   background: #313131;
   color: white;

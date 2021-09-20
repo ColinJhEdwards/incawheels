@@ -8,7 +8,7 @@ const Footer = () => {
   );
 };
 
-const StyledFoot = styled.div`
+const StyledFoot = styled.footer`
   min-height: 5vh;
   background: #630a10;
   color: white;

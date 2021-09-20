@@ -31,7 +31,7 @@ const NavB = () => {
   );
 };
 
-const StyledNav = styled.div`
+const StyledNav = styled.header`
   position: absolute;
   width: 100%;
   z-index: 99;

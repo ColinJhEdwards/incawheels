@@ -64,7 +64,7 @@ const AboutUs = () => {
   );
 };
 
-const StyledUs = styled(motion.div)`
+const StyledUs = styled(motion.section)`
   min-height: 150vh;
   display: flex;
   flex-direction: column;
