@@ -21,7 +21,7 @@ const DestinationCard = ({ img, name, url, desc }) => {
 };
 
 const StyledCard = styled(motion.div)`
-  width: 80%;
+  width: 90%;
   min-height: 800px;
   display: flex;
   flex-direction: column;
@@ -66,6 +66,27 @@ const StyledCard = styled(motion.div)`
     text-shadow: 0px 1px 2px black;
   }
   @media (max-width: 1550px) {
+    iframe {
+      width: 300px;
+      height: 200px;
+    }
+  }
+  @media (max-width: 1150px) {
+    iframe {
+      position: static;
+      width: 400px;
+      height: 300px;
+    }
+    p {
+      width: 90%;
+    }
+  }
+  @media (max-width: 480px) {
+    iframe {
+      width: 300px;
+      height: 300px;
+      opacity: 0.8;
+    }
   }
 `;
 
