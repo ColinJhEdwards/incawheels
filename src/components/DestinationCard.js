@@ -59,7 +59,7 @@ const StyledCard = styled(motion.div)`
     width: 50%;
     text-align: center;
     backdrop-filter: blur(4px);
-    border: 2px solid black;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     padding: 1rem 2rem;
     font-size: 1.5rem;

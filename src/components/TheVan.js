@@ -41,9 +41,6 @@ const TheVan = () => {
         </div>
       </div>
       <hr />
-      <div className="carousel">
-        <Caro />
-      </div>
       <p>
         A 2007 Ford Econoline 150 equipped with solar panels, remodeled with
         sustainable material, and added storage made from cedar wood which
@@ -54,6 +51,9 @@ const TheVan = () => {
         placeat ratione, eligendi obcaecati quam reprehenderit aliquid
         dignissimos iure animi porro odit quia provident earum rerum!
       </p>
+      <div className="carousel">
+        <Caro />
+      </div>
     </StyledVan>
   );
 };
