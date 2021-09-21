@@ -47,8 +47,8 @@ const TheVan = () => {
         creates a lovely smell that deters bugs. Lorem ipsum, dolor sit amet
         consectetur adipisicing elit. Maiores fuga eos at nihil. Illo quos, et
         quasi ducimus maxime commodi perferendis laborum, veritatis quia fugiat
-        aperiam voluptate odio molestias. Incidunt repellat facilis voluptas sed
-        placeat ratione, eligendi obcaecati quam reprehenderit aliquid
+        aperiam voluptate odio molestsias. Incidunt repellat facilis voluptas
+        sed placeat ratione, eligendi obcaecati quam reprehenderit aliquid
         dignissimos iure animi porro odit quia provident earum rerum!
       </p>
       <div className="carousel">
