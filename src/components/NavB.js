@@ -5,7 +5,7 @@ import { Navbar, Nav } from "react-bootstrap";
 const NavB = () => {
   return (
     <StyledNav>
-      <Navbar bg="none" expand="lg" className="noov navbar-light">
+      <Navbar bg="none" expand="lg" className="noov navbar-dark">
         <Navbar.Brand className="text logo">
           <span>Inca Wheels</span>
         </Navbar.Brand>
@@ -18,11 +18,11 @@ const NavB = () => {
             <Nav.Link href="#thevan" className="relative">
               <span>The Van</span>
             </Nav.Link>
-            <Nav.Link href="#aboutus" className="relative">
-              <span>About Us</span>
-            </Nav.Link>
             <Nav.Link href="#destinations" className="relative">
               <span>Destinations</span>
+            </Nav.Link>
+            <Nav.Link href="#aboutus" className="relative">
+              <span>About Us</span>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

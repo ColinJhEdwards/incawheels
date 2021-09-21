@@ -9,7 +9,7 @@ const Landing = () => {
     <StyledLang>
       <div className="content">
         <div className="one">
-          <img src={washington} alt="washington-photo" />
+          <img src={washington} alt="washington" />
           <div className="text">
             <motion.h2 variants={ySlide} initial="hidden" animate="show">
               Explore Washington with <span>Inca Wheels.</span>

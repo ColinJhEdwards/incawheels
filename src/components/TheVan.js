@@ -37,7 +37,7 @@ const TheVan = () => {
         </div>
         <div>
           <FontAwesomeIcon className="icon" icon={faTachometerAlt} />
-          Transmission: Automatic
+          <span id="transmission">Transmission:</span> Automatic
         </div>
       </div>
       <hr />
@@ -78,6 +78,7 @@ const StyledVan = styled(motion.section)`
     justify-content: center;
     align-items: center;
     width: 70%;
+    margin-bottom: 1rem;
   }
   .icons {
     display: flex;
@@ -109,6 +110,18 @@ const StyledVan = styled(motion.section)`
     .vanLogo {
       img {
         width: 300px;
+      }
+    }
+    .icons {
+      width: 100%;
+      #transmission {
+        display: none;
+      }
+      div {
+        width: 150px;
+        .icon {
+          font-size: 1rem;
+        }
       }
     }
     .carousel {
