@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import aboutImg from "../images/about.jpg";
 import joao from "../images/joao.jpg";
 import khocco from "../images/khocco.jpg";
 import coin from "../images/coin.JPG";

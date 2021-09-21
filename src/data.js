@@ -30,13 +30,13 @@ export const destinations = () => {
     },
     {
       id: 4,
-      name: "Mount Rainer Hikes",
+      name: "Mount Rainier Hikes",
       img: rainer,
       url: `https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ-2AI95PRkFQRB7fWeuFPXls&key=${APIKEY}`,
-      desc: `"In most years, the snow on Mount Rainier never seems to melt fast enough for hikers wanting to explore the many treasures of Mount Rainier National Park. There is a wide variety of hikes for vistors to enjoy for all skill levels." - Washington Trail Assocation`,
+      desc: `"In most years, the snow on Mount Rainier never seems to melt fast enough for hikers wanting to explore the many treasures of Mount Rainier National Park. There is a wide variety of hikes for vistors of all skill levels to enjoy." - Washington Trail Assocation`,
     },
     {
-      id: 4,
+      id: 5,
       name: "Lake Cushman",
       img: cush,
       url: `https://www.google.com/maps/embed/v1/place?q=place_id:ChIJb7BnL2_DkVQR0ofpawB_xSY&key=${APIKEY}`,

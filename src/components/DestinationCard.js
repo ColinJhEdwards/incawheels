@@ -14,6 +14,7 @@ const DestinationCard = ({ img, name, url, desc }) => {
         loading="lazy"
         allowfullscreen
         src={url}
+        title={`map-of-${name}`}
       ></iframe>
       <p>{desc}</p>
     </StyledCard>

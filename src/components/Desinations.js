@@ -1,25 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import DestinationCard from "./DestinationCard";
-import { destinations } from "../data";
+import CaroDest from "./CaroDest";
 
 const Destinations = () => {
-  const [data, setData] = useState(destinations);
-  console.log(data);
-
   return (
     <StyledUs id="destinations">
       <h2 id="title">Destination Recommendations</h2>
-      {data.map((d) => (
-        <DestinationCard
-          key={d.id}
-          name={d.name}
-          url={d.url}
-          desc={d.desc}
-          img={d.img}
-        />
-      ))}
+      <div>
+        <CaroDest />
+      </div>
     </StyledUs>
   );
 };
@@ -38,6 +28,16 @@ const StyledUs = styled(motion.section)`
   }
   h2 {
     margin: 2rem 0rem;
+  }
+  div {
+    margin: 1rem auto 2rem auto;
+  }
+  //Changing icon for carousel so its easier to see.
+  .carousel-control-next-icon {
+    font-size: 2rem;
+  }
+  .carousel-control-prev-icon {
+    color: blue;
   }
 `;
 
