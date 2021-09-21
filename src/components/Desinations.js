@@ -32,13 +32,6 @@ const StyledUs = styled(motion.section)`
   div {
     margin: 1rem auto 2rem auto;
   }
-  //Changing icon for carousel so its easier to see.
-  .carousel-control-next-icon {
-    font-size: 2rem;
-  }
-  .carousel-control-prev-icon {
-    color: blue;
-  }
 `;
 
 export default Destinations;
