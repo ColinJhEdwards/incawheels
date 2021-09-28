@@ -42,15 +42,30 @@ const TheVan = () => {
       </div>
       <hr />
       <p>
-        A 2007 Ford Econoline 150 equipped with solar panels, remodeled with
-        sustainable material, and added storage made from cedar wood which
-        creates a lovely smell that deters bugs. Lorem ipsum, dolor sit amet
-        consectetur adipisicing elit. Maiores fuga eos at nihil. Illo quos, et
-        quasi ducimus maxime commodi perferendis laborum, veritatis quia fugiat
-        aperiam voluptate odio molestsias. Incidunt repellat facilis voluptas
-        sed placeat ratione, eligendi obcaecati quam reprehenderit aliquid
-        dignissimos iure animi porro odit quia provident earum rerum!
+        Our 2007 Ford Econoline Campervan Conversion is a reliable ride built
+        for comfort with sustainability in mind. Features include two 100W solar
+        panels that power a battery to help charge your electronics on the road
+        without compromising the vehicle's battery, as well as an electric
+        cooler to keep refreshments and foods cold without the worry of using
+        ice. The van was originally built for long-term road trips across the
+        United States which results in having plenty of storage, which we use to
+        fill with extra blankets and other goodies to make your trips
+        comfortable no matter the weather.
       </p>
+      <p>
+        Sustainable features include the use of Havelock Wool (Sheep's wool!)
+        for insulation and FSC certified or repurposed wood for the interior. In
+        addition to these features, we also include with your rental the use of
+        a Waterport 3.85 Gallon Day Tank that can be used to have access to
+        pressurized water anywhere you go!
+      </p>
+
+      <p>
+        And with all Inca Wheels vehicles, you have access to an array of
+        camping gear including sleeping bags, tents, backpacking packs, lawn
+        chairs, folding tables, camping stoves/fuels, and more!
+      </p>
+
       <div className="carousel">
         <Caro />
       </div>
