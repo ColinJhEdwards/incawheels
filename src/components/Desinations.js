@@ -32,6 +32,11 @@ const StyledUs = styled(motion.section)`
   div {
     margin: 1rem auto 2rem auto;
   }
+  @media (max-width: 414px) {
+    #title {
+      font-size: 2rem;
+    }
+  }
 `;
 
 export default Destinations;

@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { motion } from "framer-motion";
 import joao from "../images/joao.jpg";
-import khocco from "../images/khocco.jpg";
+import thomas from "../images/thomas.jpg";
 import coin from "../images/coin.JPG";
 
 const AboutUs = () => {
@@ -40,29 +40,31 @@ const AboutUs = () => {
         <div className="list">
           <div className="person">
             <img src={joao} alt="joao" />
-            <h2>Joao Vilva Soto</h2>
+            <h2>Joao Vilca Soto</h2>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint,
-              itaque. Distinctio sapiente perspiciatis voluptatibus cum enim
-              nesciunt consequatur itaque quasi.
+              Joao, founder of Inca Wheels and Ruta Verde, is of Inca decent and
+              holds a bachelors degree in sustainable practices. He has been
+              apart of environmental projects located in the Amazon Rain Forest
+              and Iceland.
             </p>
           </div>
           <div className="person">
-            <img src={khocco} alt="khocoo" />
-            <h2>Khocco Exendine</h2>
+            <img src={thomas} alt="khocoo" />
+            <h2>Thomas Diener</h2>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint,
-              itaque. Distinctio sapiente perspiciatis voluptatibus cum enim
-              nesciunt consequatur itaque quasi.
+              Thomas assists in designing and constructing the vehicles we
+              offer. He has cultural experience from living in South Africa for
+              more than two years.
             </p>
           </div>
           <div className="person">
             <img src={coin} alt="colin" />
             <h2>Colin Edwards</h2>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint,
-              itaque. Distinctio sapiente perspiciatis voluptatibus cum enim
-              nesciunt consequatur itaque quasi.
+              Volunteer Front End Developer, assists in designing and
+              maintaining our website Inca Wheels. He was born in the Pacific
+              Northwest, is an advocate for sustainability, and has worked with
+              non-profits such as Climate Solutions.
             </p>
           </div>
         </div>
@@ -121,6 +123,8 @@ const StyledUs = styled(motion.section)`
       flex-direction: column;
       align-items: center;
       text-align: center;
+      margin: 2rem 0rem;
+
       img {
         width: 200px;
         border-radius: 50rem;

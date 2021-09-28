@@ -14,9 +14,15 @@ const Landing = () => {
             <motion.h2 variants={ySlide} initial="hidden" animate="show">
               Explore Washington with <span>Inca Wheels.</span>
             </motion.h2>
-            <motion.button variants={ySlide} initial="hidden" animate="show">
-              Reserve Now
-            </motion.button>
+            <a
+              href="https://www.outdoorsy.com/rv-rental/bellevue_wa/2007_ford_econoline-150_239213-listing?fbclid=IwAR1fr22rHz3sl1bOihi5d99JvGcMnBEdKhx-kHALbl_rAKYYR15d8dloHcQ"
+              target="_blank"
+            >
+              {" "}
+              <motion.button variants={ySlide} initial="hidden" animate="show">
+                Reserve Now
+              </motion.button>
+            </a>
           </div>
         </div>
       </div>
