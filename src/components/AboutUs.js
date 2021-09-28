@@ -11,18 +11,26 @@ const AboutUs = () => {
       <div className="title">
         <h2>About Inca Wheels</h2>
         <p>
-          "Our mission is Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. Ipsum, mollitia."
+          <strong>
+            "Our mission: To bring affordable access to the wonderous outdoors
+            the Pacific Northwest has to offer for generatiosn to come."
+          </strong>
         </p>
       </div>
       <div className="content">
         <h3>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
-          cumque ipsam aliquid quasi ipsum quisquam neque, ratione blanditiis?
-          Id, fugit maxime et quae error pariatur non natus in consequuntur
-          alias? Porro ipsa doloremque cupiditate ratione. Suscipit, sapiente
-          dolore nihil et dolores sunt omnis accusantium aut! Itaque dignissimos
-          voluptas aliquid iste.
+          Inca Wheels is an indigenous owned outdoor receational vehicle rental
+          company based in the Pacific Northwest. Started as a way to help raise
+          funds for the nonprofit{" "}
+          <a href="https://ruta-verde.org/#/home" target="_blank">
+            Ruta Verde
+          </a>{" "}
+          that focuses on Sustainable Development projects including the
+          building of Community Forests in North America and creating
+          sustainable food solutions in Peru. The Inca were honorable people
+          that valued their surrounding environments at the core of their belief
+          systems, and we hope to honor this ideology by creating a business
+          that focuses on caring for the planet, not just profits.
         </h3>
       </div>
       <div className="team">
@@ -84,8 +92,9 @@ const StyledUs = styled(motion.section)`
     justify-content: space-around;
     flex-wrap: wrap;
     h3 {
-      width: 50%;
+      width: 60%;
       text-align: center;
+      line-height: 1.5;
     }
   }
   .team {
