@@ -13,7 +13,7 @@ const AboutUs = () => {
         <p>
           <strong>
             "Our mission: To bring affordable access to the wonderous outdoors
-            the Pacific Northwest has to offer for generatiosn to come."
+            the Pacific Northwest has to offer for generations to come."
           </strong>
         </p>
       </div>
