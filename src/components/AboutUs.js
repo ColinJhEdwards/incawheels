@@ -191,16 +191,20 @@ const StyledUs = styled(motion.section)`
     }
   }
   @media (max-width: 415px) {
+    .icon {
+      margin: 4rem 0rem;
+    }
     .title {
-      p {
+      h2 {
         width: 90%;
-        margin: 2rem auto;
+        margin: auto;
         text-align: center;
       }
     }
     .content {
-      h3 {
+      p {
         width: 90%;
+        font-size: 1rem;
       }
     }
   }
