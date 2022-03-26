@@ -19,7 +19,7 @@ const AboutUs = () => {
       </div>
       <div className="content">
         <h3>
-          Inca Wheels is an indigenous owned outdoor receational vehicle rental
+          Inca Wheels is an indigenous owned outdoor recreational vehicle rental
           company based in the Pacific Northwest. Started as a way to help raise
           funds for the nonprofit{" "}
           <a href="https://ruta-verde.org/#/home" target="_blank">
