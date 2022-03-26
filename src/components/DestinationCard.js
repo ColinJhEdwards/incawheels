@@ -37,7 +37,7 @@ const StyledCard = styled(motion.div)`
   img {
     position: absolute;
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
     top: 0;
     left: 0;
