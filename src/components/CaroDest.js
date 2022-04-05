@@ -8,9 +8,8 @@ const CaroDest = () => {
   return (
     <Carousel fade nextLabel={null} prevLabel={null} pause={"hover"}>
       {data.map((d) => (
-        <Carousel.Item>
+        <Carousel.Item key={d.id}>
           <DestinationCard
-            key={d.id}
             name={d.name}
             url={d.url}
             desc={d.desc}

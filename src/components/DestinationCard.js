@@ -12,7 +12,7 @@ const DestinationCard = ({ img, name, url, desc }) => {
         width="400"
         height="350"
         loading="lazy"
-        allowfullscreen
+        allowFullScreen
         src={url}
         title={`map-of-${name}`}
       ></iframe>
