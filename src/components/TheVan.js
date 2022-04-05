@@ -9,6 +9,10 @@ import {
   faUserFriends,
   faGasPump,
   faTachometerAlt,
+  faSolarPanel,
+  faBox,
+  faLeaf,
+  faCampground,
 } from "@fortawesome/free-solid-svg-icons";
 
 const TheVan = () => {
@@ -40,32 +44,68 @@ const TheVan = () => {
           <span id="transmission">Transmission:</span> Automatic
         </div>
       </div>
-      <hr />
-      <p>
-        Our 2007 Ford Econoline Campervan Conversion is a reliable ride built
-        for comfort with sustainability in mind. Features include two 100W solar
-        panels that power a battery to help charge your electronics on the road
-        without compromising the vehicle's battery, as well as an electric
-        cooler to keep refreshments and foods cold without the worry of using
-        ice. The van was originally built for long-term road trips across the
-        United States which results in having plenty of storage, which we use to
-        fill with extra blankets and other goodies to make your trips
-        comfortable no matter the weather.
-      </p>
-      <p>
-        Sustainable features include the use of Havelock Wool (Sheep's wool!)
-        for insulation and FSC certified or repurposed wood for the interior. In
-        addition to these features, we also include with your rental the use of
-        a Waterport 3.85 Gallon Day Tank that can be used to have access to
-        pressurized water anywhere you go!
-      </p>
-
-      <p>
-        And with all Inca Wheels vehicles, you have access to an array of
-        camping gear including sleeping bags, tents, backpacking packs, lawn
-        chairs, folding tables, camping stoves/fuels, and more!
-      </p>
-
+      <h2 id="why">Why Choose Inca Wheels?</h2>
+      <div className="details">
+        <div className="detailContainer">
+          <div className="title">
+            <FontAwesomeIcon
+              icon={faSolarPanel}
+              className="titleIcon"
+              id="solar"
+            />
+            <h3>Solar</h3>
+          </div>
+          <div className="line"></div>
+          <p>
+            Our van includes two 100W solar panels that power a seperate battery
+            to help charge your electronics on the road, as well as an electric
+            cooler to keep refreshments and foods cold.
+          </p>
+        </div>
+        <div className="detailContainer">
+          <div className="title">
+            <FontAwesomeIcon icon={faBox} className="titleIcon" id="box" />
+            <h3>Storage</h3>
+          </div>
+          <div className="line"></div>
+          <p>
+            The van was originally built for long-term road trips across the
+            United States which resulted in extra storage space. We fill this
+            space with extra blankets and other goodies to make your trips
+            comfortable no matter the weather.
+          </p>
+        </div>
+        <div className="detailContainer">
+          <div className="title">
+            <FontAwesomeIcon icon={faLeaf} className="titleIcon" id="leaf" />
+            <h3>Sustainable</h3>
+          </div>
+          <div className="line"></div>
+          <p>
+            Sustainable features include the use of Havelock Wool (Sheep's
+            wool!) for insulation and FSC certified or repurposed wood for the
+            interior. We also include the use of a Waterport 3.85 Gallon Day
+            Tank that can be used to have access to pressurized water anywhere
+            you go!
+          </p>
+        </div>
+        <div className="detailContainer">
+          <div className="title">
+            <FontAwesomeIcon
+              icon={faCampground}
+              className="titleIcon"
+              id="camp"
+            />
+            <h3>Camping Gear</h3>
+          </div>
+          <div className="line"></div>
+          <p>
+            All Inca Wheels vehicles include access to an array of camping gear
+            including sleeping bags, tents, backpacking packs, lawn chairs,
+            folding tables, camping stoves/fuels, and more!
+          </p>
+        </div>
+      </div>
       <div className="carousel">
         <Caro />
       </div>
@@ -81,9 +121,10 @@ const StyledVan = styled(motion.section)`
   justify-content: space-around;
   h1 {
     text-align: center;
+    margin-top: 2rem;
   }
   hr {
-    width: 10%;
+    width: 30%;
     height: 4px;
     background: #911f27;
     opacity: 1;
@@ -117,10 +158,87 @@ const StyledVan = styled(motion.section)`
       }
     }
   }
-  p {
-    text-align: center;
-    width: 60%;
+  #why {
+    margin-top: 2rem;
   }
+  .details {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .detailContainer {
+      box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+      margin: 2rem 1rem;
+      padding: 2rem;
+      border-radius: 15px;
+      width: 40%;
+      min-height: 270px;
+      .line {
+        height: 0.2rem;
+        background: #414141;
+        width: 100%;
+        margin-bottom: 1rem;
+      }
+      .title {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+        .titleIcon {
+          font-size: 2rem;
+          margin-right: 1rem;
+        }
+      }
+      #solar {
+        color: #ecd71b;
+      }
+      #box {
+        color: #88511e;
+      }
+      #leaf {
+        color: green;
+      }
+      #camp {
+        color: #911f27;
+      }
+    }
+  }
+
+  @media (max-width: 1282px) {
+    .details {
+      width: 100%;
+      .detailContainer {
+        width: 60%;
+      }
+    }
+  }
+
+  @media (max-width: 625px) {
+    .details {
+      .detailContainer {
+        width: 90%;
+      }
+    }
+    .vanLogo {
+      img {
+        width: 300px;
+      }
+    }
+    .icons {
+      width: 100%;
+      #transmission {
+        display: none;
+      }
+      div {
+        width: 150px;
+        .icon {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
   @media (max-width: 415px) {
     .vanLogo {
       img {
