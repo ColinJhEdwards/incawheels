@@ -17,10 +17,11 @@ const AboutUs = () => {
         <div className="text">
           <div className="title">
             <h1>About Inca Wheels</h1>
-            <h2>
-              Our mission: To bring affordable access to the wonderous outdoors
-              the pacific Northwest has to offer for generations to come.
-            </h2>
+            <h3>
+              Our Mission: <br /> To bring affordable access to the wonderous
+              outdoors the pacific Northwest has to offer for generations to
+              come.
+            </h3>
           </div>
           <div className="icon">
             <img src={incaIcon} alt="inca icon" />
@@ -120,8 +121,9 @@ const StyledUs = styled(motion.section)`
     text-align: center;
     h1 {
       font-size: 3rem;
+      margin-bottom: 2rem;
     }
-    h2 {
+    h3 {
       color: #911f27;
     }
   }
@@ -141,7 +143,7 @@ const StyledUs = styled(motion.section)`
       width: 90%;
       text-align: center;
       line-height: 1.5;
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
   }
   .team {

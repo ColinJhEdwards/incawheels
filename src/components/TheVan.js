@@ -169,7 +169,9 @@ const StyledVan = styled(motion.section)`
     justify-content: center;
     align-items: center;
     .detailContainer {
-      box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+      /* box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5); */
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+        rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
       margin: 2rem 1rem;
       padding: 2rem;
       border-radius: 15px;
