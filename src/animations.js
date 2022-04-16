@@ -3,7 +3,7 @@ export const pageAnimation = {
   hidden: {
     opacity: 0,
   },
-  //Show is what the end of the animation will be
+  //Show is what the end of the animation will be.
   show: {
     opacity: 1,
 
